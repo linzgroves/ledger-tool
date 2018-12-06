@@ -1,0 +1,28 @@
+{
+  "name": "ledger-tool",
+  "version": "1.0.0",
+  "description": "Simple Node.js CLI tool to handle ledger workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linzgroves/ledger-tool.git"
+  },
+  "bin": {
+    "ledger": "./index.js"
+  },
+  "author": "Lindsay Groves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linzgroves/ledger-tool/issues"
+  },
+  "homepage": "https://github.com/linzgroves/ledger-tool#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "rx": "^4.1.0",
+    "rxjs": "^6.3.3"
+  }
+}
