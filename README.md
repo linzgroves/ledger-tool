@@ -12,7 +12,7 @@ A Node.js tool that can be run via the command line that allows the following wo
 * See transaction history
 * Log out
 
-The tool uses temporary data so an account created cannot be logged back into with the current version of this tool. 
+The tool uses temporary data so an account created cannot be logged back into with the current version of this tool.
 
 ### Installing
 
@@ -22,7 +22,7 @@ npm install ledger-tool
 
 ### Executing program
 
-* To begin, run:
+To begin, run:
 ```
 ledger startSession
 ```
@@ -31,11 +31,11 @@ Once you're logged in, you'll be taken to a menu where you can move through the 
 
 ## Help
 
-Currently, since there's only one command to get the app going, no --help commands were provided. 
+Currently, since there's only one command to get the app going, no --help commands were provided. However, there are a few statements printed out that should guide the user.
 
 ## Authors
 
-Lindsay Groves 
+Lindsay Groves
 
 ## Version History
 
